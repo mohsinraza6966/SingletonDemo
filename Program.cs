@@ -11,13 +11,13 @@ namespace SingletonDemo
     {
         static void Main(string[] args)
         {
-            Singelton singeltonAdmin = Singelton.GetInstance;
+            Singelton singeltonAdmin = Singelton.GetInstance();
             singeltonAdmin.PrintDetails("Admin");
-            Singelton singeltonUser = Singelton.GetInstance;
+            Singelton singeltonUser = Singelton.GetInstance();
             singeltonUser.PrintDetails("User");
-            Singelton singeltonSuperAdmin = Singelton.GetInstance;
+            Singelton singeltonSuperAdmin = Singelton.GetInstance();
             singeltonSuperAdmin.PrintDetails("Super Admin");
-            Singelton singeltonHR = Singelton.GetInstance;
+            Singelton singeltonHR = Singelton.GetInstance();
             singeltonHR.PrintDetails("HR");
 
             singeltonHR.PrintInstanceCounter();
